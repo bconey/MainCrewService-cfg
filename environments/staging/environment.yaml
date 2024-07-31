@@ -41,9 +41,9 @@ app:
     - name: addcrewservice.url
       value: "https://addcrewservice-20240607-0253-4326-61b4-7914358d2084.staging.us-east.c2.appflow.dev.ibmappdomain.cloud/AddCrewService"
     - name: deletecrewservice.url
-      value: "https://deletecrewservice-20240607-0253-4326-61b4-7914358d2084.staging.us-east.c2.appflow.dev.ibmappdomain.cloud/DeleteCrewService"
+      value: https://deletecrewservice-20240607-0253-4326-61b4-7914358d2084.staging.us-east.c2.appflow.dev.ibmappdomain.cloud/DeleteCrewService
     - name: updatecrewservice.url
-      value: "https://updatecrewservice-20240607-0253-4326-61b4-7914358d2084.staging.us-east.c2.appflow.dev.ibmappdomain.cloud/UpdateCrewService"
+      value: https://updatecrewservice-20240607-0253-4326-61b4-7914358d2084.staging.us-east.c2.appflow.dev.ibmappdomain.cloud/UpdateCrewService
   # observability:
   #  cloudwatch:   
   #    arn: arn:aws:logs:region:account-id:destination:destination_name
