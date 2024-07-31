@@ -38,6 +38,12 @@ app:
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
     - name: mongo.hostname
       value: "ec2-35-153-18-9.compute-1.amazonaws.com"
+    - name: addcrewservice.url
+      value: "https://addcrewservice-20240607-0253-4326-61b4-7914358d2084.staging.us-east.c2.appflow.dev.ibmappdomain.cloud"
+    - name: deletecrewservice.url
+      value: "https://deletecrewservice-20240607-0253-4326-61b4-7914358d2084.staging.us-east.c2.appflow.dev.ibmappdomain.cloud"
+    - name: updatecrewservice.url
+      value: "https://updatecrewservice-20240607-0253-4326-61b4-7914358d2084.staging.us-east.c2.appflow.dev.ibmappdomain.cloud"
   # observability:
   #  cloudwatch:   
   #    arn: arn:aws:logs:region:account-id:destination:destination_name
